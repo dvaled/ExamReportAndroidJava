@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "736086444103",
+    "firebase_url": "https://examreport-bea57-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "examreport-bea57",
+    "storage_bucket": "examreport-bea57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736086444103:android:eb11ba0e1eb548a36bc962",
+        "android_client_info": {
+          "package_name": "com.example.examreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736086444103-ev6pmp5v55ncr6kg9klm1kvr8iesgsmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLpc5F56NfjkWwGM0x5DthBUIyJS8DZL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736086444103-ev6pmp5v55ncr6kg9klm1kvr8iesgsmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

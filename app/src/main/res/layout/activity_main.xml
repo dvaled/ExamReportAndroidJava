@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="14dp"
+    android:background="#00FFD1"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ExamReport"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_KMahasiswa"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:backgroundTint="#B3FFAE"
+        android:text="Menu kode Mahasiswa"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_NMahasiswa"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#FFE9A0"
+        android:text="Menu Nilai Mahasiswa" />
+    <Button
+        android:id="@+id/btn_Mahasiswa"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#FFF9EA"
+        android:text="Menu Mahasiswa" />
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="#DC3535"
+        android:backgroundTint="#00FFD1"/>
+</LinearLayout>
